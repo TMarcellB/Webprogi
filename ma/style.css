@@ -1,25 +1,40 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
     margin: 0;
     padding: 0;
     color: #343a40;
+    background-image: url(img/bg.png);
 }
-
+.card{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aqua;
+}
+#felviteles{
+    color: whitesmoke;
+}
 .navbar {
     margin-bottom: 20px;
+    background-color: #007bff;
+    background-size: cover;
 }
 
 .navbar-brand {
     font-size: 1.25rem;
     color: #007bff !important;
+    
+    
 }
 
 h1 {
     text-align: center;
     margin-top: 20px;
     font-size: 2.5rem;
-    color: #343a40;
+    color: black;
 }
 
 p {
@@ -27,6 +42,7 @@ p {
     margin: 20px;
     font-size: 1rem;
     line-height: 1.5;
+    color: #343a40;
 }
 
 .container-fluid {
